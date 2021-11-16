@@ -5,16 +5,23 @@ function Reviews(){
     const users =[
       {
         "id":1,
-        "nama":"Masayoshi Setiawan",
+        "name":"Masayoshi Setiawan",
         "Review":"The Price is so Cheap",
-        "photo": ""
+        "photo": "https://images.pexels.com/photos/8184274/pexels-photo-8184274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500"
       },
       {
         "id":2,
-        "nama":"Setiawan Mayashosi",
+        "name":"Setiawan Mayashosi",
         "Review":"The Price is so Cheap",
-        "photo" :""
-      }
+        "photo" :"https://images.pexels.com/photos/8184274/pexels-photo-8184274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500"
+      },
+      {
+        "id":3,
+        "name":"Shosimaya AwanSeti",
+        "Review":"The Price is so Cheap",
+        "photo" :"https://images.pexels.com/photos/8184274/pexels-photo-8184274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500"
+      },
+
     ]; 
     const listReview = users.map((itemReview) =>
     <div className="item">
